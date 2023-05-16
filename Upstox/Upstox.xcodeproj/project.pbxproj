@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC35860F2A14006E007D64EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35860E2A14006E007D64EE /* AppDelegate.swift */; };
+		CC3586112A14006E007D64EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586102A14006E007D64EE /* SceneDelegate.swift */; };
+		CC3586132A14006E007D64EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586122A14006E007D64EE /* ViewController.swift */; };
+		CC3586162A14006E007D64EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3586142A14006E007D64EE /* Main.storyboard */; };
+		CC3586192A14006E007D64EE /* Upstox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC3586172A14006E007D64EE /* Upstox.xcdatamodeld */; };
+		CC35861B2A14006E007D64EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC35861A2A14006E007D64EE /* Assets.xcassets */; };
+		CC35861E2A14006F007D64EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC35861C2A14006F007D64EE /* LaunchScreen.storyboard */; };
+		CC3586292A14006F007D64EE /* UpstoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586282A14006F007D64EE /* UpstoxTests.swift */; };
+		CC3586332A14006F007D64EE /* UpstoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586322A14006F007D64EE /* UpstoxUITests.swift */; };
+		CC3586352A14006F007D64EE /* UpstoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3586252A14006F007D64EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3586032A14006E007D64EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC35860A2A14006E007D64EE;
+			remoteInfo = Upstox;
+		};
+		CC35862F2A14006F007D64EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3586032A14006E007D64EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC35860A2A14006E007D64EE;
+			remoteInfo = Upstox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC35860B2A14006E007D64EE /* Upstox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upstox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC35860E2A14006E007D64EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3586102A14006E007D64EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC3586122A14006E007D64EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3586152A14006E007D64EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3586182A14006E007D64EE /* Upstox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Upstox.xcdatamodel; sourceTree = "<group>"; };
+		CC35861A2A14006E007D64EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC35861D2A14006F007D64EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC35861F2A14006F007D64EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3586242A14006F007D64EE /* UpstoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3586282A14006F007D64EE /* UpstoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxTests.swift; sourceTree = "<group>"; };
+		CC35862E2A14006F007D64EE /* UpstoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3586322A14006F007D64EE /* UpstoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxUITests.swift; sourceTree = "<group>"; };
+		CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3586082A14006E007D64EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3586212A14006F007D64EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC35862B2A14006F007D64EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3586022A14006E007D64EE = {
+			isa = PBXGroup;
+			children = (
+				CC35860D2A14006E007D64EE /* Upstox */,
+				CC3586272A14006F007D64EE /* UpstoxTests */,
+				CC3586312A14006F007D64EE /* UpstoxUITests */,
+				CC35860C2A14006E007D64EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC35860C2A14006E007D64EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC35860B2A14006E007D64EE /* Upstox.app */,
+				CC3586242A14006F007D64EE /* UpstoxTests.xctest */,
+				CC35862E2A14006F007D64EE /* UpstoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC35860D2A14006E007D64EE /* Upstox */ = {
+			isa = PBXGroup;
+			children = (
+				CC35860E2A14006E007D64EE /* AppDelegate.swift */,
+				CC3586102A14006E007D64EE /* SceneDelegate.swift */,
+				CC3586122A14006E007D64EE /* ViewController.swift */,
+				CC3586142A14006E007D64EE /* Main.storyboard */,
+				CC35861A2A14006E007D64EE /* Assets.xcassets */,
+				CC35861C2A14006F007D64EE /* LaunchScreen.storyboard */,
+				CC35861F2A14006F007D64EE /* Info.plist */,
+				CC3586172A14006E007D64EE /* Upstox.xcdatamodeld */,
+			);
+			path = Upstox;
+			sourceTree = "<group>";
+		};
+		CC3586272A14006F007D64EE /* UpstoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586282A14006F007D64EE /* UpstoxTests.swift */,
+			);
+			path = UpstoxTests;
+			sourceTree = "<group>";
+		};
+		CC3586312A14006F007D64EE /* UpstoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586322A14006F007D64EE /* UpstoxUITests.swift */,
+				CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */,
+			);
+			path = UpstoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC35860A2A14006E007D64EE /* Upstox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3586382A14006F007D64EE /* Build configuration list for PBXNativeTarget "Upstox" */;
+			buildPhases = (
+				CC3586072A14006E007D64EE /* Sources */,
+				CC3586082A14006E007D64EE /* Frameworks */,
+				CC3586092A14006E007D64EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Upstox;
+			productName = Upstox;
+			productReference = CC35860B2A14006E007D64EE /* Upstox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3586232A14006F007D64EE /* UpstoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC35863B2A14006F007D64EE /* Build configuration list for PBXNativeTarget "UpstoxTests" */;
+			buildPhases = (
+				CC3586202A14006F007D64EE /* Sources */,
+				CC3586212A14006F007D64EE /* Frameworks */,
+				CC3586222A14006F007D64EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3586262A14006F007D64EE /* PBXTargetDependency */,
+			);
+			name = UpstoxTests;
+			productName = UpstoxTests;
+			productReference = CC3586242A14006F007D64EE /* UpstoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC35862D2A14006F007D64EE /* UpstoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC35863E2A14006F007D64EE /* Build configuration list for PBXNativeTarget "UpstoxUITests" */;
+			buildPhases = (
+				CC35862A2A14006F007D64EE /* Sources */,
+				CC35862B2A14006F007D64EE /* Frameworks */,
+				CC35862C2A14006F007D64EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3586302A14006F007D64EE /* PBXTargetDependency */,
+			);
+			name = UpstoxUITests;
+			productName = UpstoxUITests;
+			productReference = CC35862E2A14006F007D64EE /* UpstoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3586032A14006E007D64EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CC35860A2A14006E007D64EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CC3586232A14006F007D64EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC35860A2A14006E007D64EE;
+					};
+					CC35862D2A14006F007D64EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CC35860A2A14006E007D64EE;
+					};
+				};
+			};
+			buildConfigurationList = CC3586062A14006E007D64EE /* Build configuration list for PBXProject "Upstox" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3586022A14006E007D64EE;
+			productRefGroup = CC35860C2A14006E007D64EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC35860A2A14006E007D64EE /* Upstox */,
+				CC3586232A14006F007D64EE /* UpstoxTests */,
+				CC35862D2A14006F007D64EE /* UpstoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3586092A14006E007D64EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC35861E2A14006F007D64EE /* LaunchScreen.storyboard in Resources */,
+				CC35861B2A14006E007D64EE /* Assets.xcassets in Resources */,
+				CC3586162A14006E007D64EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3586222A14006F007D64EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC35862C2A14006F007D64EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3586072A14006E007D64EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3586132A14006E007D64EE /* ViewController.swift in Sources */,
+				CC35860F2A14006E007D64EE /* AppDelegate.swift in Sources */,
+				CC3586192A14006E007D64EE /* Upstox.xcdatamodeld in Sources */,
+				CC3586112A14006E007D64EE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3586202A14006F007D64EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3586292A14006F007D64EE /* UpstoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC35862A2A14006F007D64EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3586332A14006F007D64EE /* UpstoxUITests.swift in Sources */,
+				CC3586352A14006F007D64EE /* UpstoxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3586262A14006F007D64EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC35860A2A14006E007D64EE /* Upstox */;
+			targetProxy = CC3586252A14006F007D64EE /* PBXContainerItemProxy */;
+		};
+		CC3586302A14006F007D64EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC35860A2A14006E007D64EE /* Upstox */;
+			targetProxy = CC35862F2A14006F007D64EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3586142A14006E007D64EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3586152A14006E007D64EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC35861C2A14006F007D64EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC35861D2A14006F007D64EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3586362A14006F007D64EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3586372A14006F007D64EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3586392A14006F007D64EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Upstox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Upstox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC35863A2A14006F007D64EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Upstox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Upstox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC35863C2A14006F007D64EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.UpstoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upstox.app/Upstox";
+			};
+			name = Debug;
+		};
+		CC35863D2A14006F007D64EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.UpstoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upstox.app/Upstox";
+			};
+			name = Release;
+		};
+		CC35863F2A14006F007D64EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.UpstoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Upstox;
+			};
+			name = Debug;
+		};
+		CC3586402A14006F007D64EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39ZZ8ZKBFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.UpstoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Upstox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3586062A14006E007D64EE /* Build configuration list for PBXProject "Upstox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3586362A14006F007D64EE /* Debug */,
+				CC3586372A14006F007D64EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3586382A14006F007D64EE /* Build configuration list for PBXNativeTarget "Upstox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3586392A14006F007D64EE /* Debug */,
+				CC35863A2A14006F007D64EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC35863B2A14006F007D64EE /* Build configuration list for PBXNativeTarget "UpstoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC35863C2A14006F007D64EE /* Debug */,
+				CC35863D2A14006F007D64EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC35863E2A14006F007D64EE /* Build configuration list for PBXNativeTarget "UpstoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC35863F2A14006F007D64EE /* Debug */,
+				CC3586402A14006F007D64EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC3586172A14006E007D64EE /* Upstox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC3586182A14006E007D64EE /* Upstox.xcdatamodel */,
+			);
+			currentVersion = CC3586182A14006E007D64EE /* Upstox.xcdatamodel */;
+			path = Upstox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC3586032A14006E007D64EE /* Project object */;
+}
