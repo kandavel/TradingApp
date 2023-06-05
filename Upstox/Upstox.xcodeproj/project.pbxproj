@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC191E192A252DE800D30D41 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC191E182A252DE800D30D41 /* Protocol.swift */; };
+		CC191E1B2A25535200D30D41 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC191E1A2A25535200D30D41 /* CollectionViewDataSource.swift */; };
 		CC35860F2A14006E007D64EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35860E2A14006E007D64EE /* AppDelegate.swift */; };
 		CC3586112A14006E007D64EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586102A14006E007D64EE /* SceneDelegate.swift */; };
 		CC3586132A14006E007D64EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586122A14006E007D64EE /* ViewController.swift */; };
@@ -17,6 +19,37 @@
 		CC3586292A14006F007D64EE /* UpstoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586282A14006F007D64EE /* UpstoxTests.swift */; };
 		CC3586332A14006F007D64EE /* UpstoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586322A14006F007D64EE /* UpstoxUITests.swift */; };
 		CC3586352A14006F007D64EE /* UpstoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */; };
+		CC35864E2A18035E007D64EE /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35864C2A18035E007D64EE /* CollectionView.swift */; };
+		CC35864F2A18035E007D64EE /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35864D2A18035E007D64EE /* Date.swift */; };
+		CC3586782A180D9E007D64EE /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35866F2A180D9E007D64EE /* SplashViewController.swift */; };
+		CC3586792A180D9E007D64EE /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586712A180D9E007D64EE /* SplashInteractor.swift */; };
+		CC35867A2A180D9E007D64EE /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586732A180D9E007D64EE /* SplashRouter.swift */; };
+		CC35867B2A180D9E007D64EE /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3586752A180D9E007D64EE /* SplashViewController.xib */; };
+		CC35867C2A180D9E007D64EE /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586772A180D9E007D64EE /* SplashPresenter.swift */; };
+		CC3586AD2A180FB2007D64EE /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35867D2A180FB2007D64EE /* RequestType.swift */; };
+		CC3586AE2A180FB2007D64EE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35867E2A180FB2007D64EE /* Router.swift */; };
+		CC3586AF2A180FB2007D64EE /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35867F2A180FB2007D64EE /* Parser.swift */; };
+		CC3586B02A180FB2007D64EE /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586802A180FB2007D64EE /* NetworkError.swift */; };
+		CC3586C62A180FB2007D64EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586AC2A180FB2007D64EE /* NetworkManager.swift */; };
+		CC3586CF2A18CD35007D64EE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586C82A18CD35007D64EE /* Constant.swift */; };
+		CC3586D02A18CD35007D64EE /* TLReachabilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586C92A18CD35007D64EE /* TLReachabilityHelper.swift */; };
+		CC3586D12A18CD35007D64EE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586CA2A18CD35007D64EE /* Reachability.swift */; };
+		CC3586D22A18CD35007D64EE /* ReachabilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586CB2A18CD35007D64EE /* ReachabilityProtocol.swift */; };
+		CC3586D32A18CD35007D64EE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586CC2A18CD35007D64EE /* UIImageExtension.swift */; };
+		CC3586D42A18CD35007D64EE /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586CD2A18CD35007D64EE /* LoadingIndicator.swift */; };
+		CC3586D52A18CD35007D64EE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586CE2A18CD35007D64EE /* LoadingView.swift */; };
+		CC3586D72A18F4C9007D64EE /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586D62A18F4C9007D64EE /* StockData.swift */; };
+		CC3586D92A18F500007D64EE /* StocksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586D82A18F500007D64EE /* StocksInteractor.swift */; };
+		CC3586DB2A18F516007D64EE /* StocksPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586DA2A18F516007D64EE /* StocksPresentor.swift */; };
+		CC3586DD2A18F520007D64EE /* StocksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586DC2A18F520007D64EE /* StocksRouter.swift */; };
+		CC3586DF2A18F52D007D64EE /* StocksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586DE2A18F52D007D64EE /* StocksService.swift */; };
+		CC3586E12A18F555007D64EE /* MyCurrentHoldingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586E02A18F555007D64EE /* MyCurrentHoldingViewController.swift */; };
+		CC3586E42A18F77D007D64EE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586E32A18F77D007D64EE /* BaseViewController.swift */; };
+		CC3586E62A19DA52007D64EE /* CurrentHoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586E52A19DA52007D64EE /* CurrentHoldingCell.swift */; };
+		CC3586E82A19E166007D64EE /* CurrentHoldingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3586E72A19E166007D64EE /* CurrentHoldingCell.xib */; };
+		CC3586EA2A19E170007D64EE /* MyCurrentHoldingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3586E92A19E170007D64EE /* MyCurrentHoldingViewController.xib */; };
+		CC3586EE2A1A1973007D64EE /* BottomSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3586ED2A1A1973007D64EE /* BottomSheetView.xib */; };
+		CC3586F02A1B32DE007D64EE /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3586EF2A1B32DE007D64EE /* BottomSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +70,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC191E182A252DE800D30D41 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		CC191E1A2A25535200D30D41 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		CC35860B2A14006E007D64EE /* Upstox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upstox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC35860E2A14006E007D64EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3586102A14006E007D64EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +86,37 @@
 		CC35862E2A14006F007D64EE /* UpstoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3586322A14006F007D64EE /* UpstoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxUITests.swift; sourceTree = "<group>"; };
 		CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC35864C2A18035E007D64EE /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		CC35864D2A18035E007D64EE /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CC35866F2A180D9E007D64EE /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CC3586712A180D9E007D64EE /* SplashInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		CC3586732A180D9E007D64EE /* SplashRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		CC3586752A180D9E007D64EE /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		CC3586772A180D9E007D64EE /* SplashPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		CC35867D2A180FB2007D64EE /* RequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		CC35867E2A180FB2007D64EE /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CC35867F2A180FB2007D64EE /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		CC3586802A180FB2007D64EE /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CC3586AC2A180FB2007D64EE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CC3586C82A18CD35007D64EE /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CC3586C92A18CD35007D64EE /* TLReachabilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLReachabilityHelper.swift; sourceTree = "<group>"; };
+		CC3586CA2A18CD35007D64EE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CC3586CB2A18CD35007D64EE /* ReachabilityProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityProtocol.swift; sourceTree = "<group>"; };
+		CC3586CC2A18CD35007D64EE /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		CC3586CD2A18CD35007D64EE /* LoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		CC3586CE2A18CD35007D64EE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CC3586D62A18F4C9007D64EE /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		CC3586D82A18F500007D64EE /* StocksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksInteractor.swift; sourceTree = "<group>"; };
+		CC3586DA2A18F516007D64EE /* StocksPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksPresentor.swift; sourceTree = "<group>"; };
+		CC3586DC2A18F520007D64EE /* StocksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksRouter.swift; sourceTree = "<group>"; };
+		CC3586DE2A18F52D007D64EE /* StocksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksService.swift; sourceTree = "<group>"; };
+		CC3586E02A18F555007D64EE /* MyCurrentHoldingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCurrentHoldingViewController.swift; sourceTree = "<group>"; };
+		CC3586E32A18F77D007D64EE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CC3586E52A19DA52007D64EE /* CurrentHoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentHoldingCell.swift; sourceTree = "<group>"; };
+		CC3586E72A19E166007D64EE /* CurrentHoldingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentHoldingCell.xib; sourceTree = "<group>"; };
+		CC3586E92A19E170007D64EE /* MyCurrentHoldingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCurrentHoldingViewController.xib; sourceTree = "<group>"; };
+		CC3586ED2A1A1973007D64EE /* BottomSheetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomSheetView.xib; sourceTree = "<group>"; };
+		CC3586EF2A1B32DE007D64EE /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +167,11 @@
 		CC35860D2A14006E007D64EE /* Upstox */ = {
 			isa = PBXGroup;
 			children = (
+				CC3586E22A18F77D007D64EE /* Base */,
+				CC3586C72A18CD35007D64EE /* Utils */,
+				CC3586432A147CE7007D64EE /* Extension */,
+				CC3586422A147CD1007D64EE /* Module */,
+				CC3586412A147C91007D64EE /* Network */,
 				CC35860E2A14006E007D64EE /* AppDelegate.swift */,
 				CC3586102A14006E007D64EE /* SceneDelegate.swift */,
 				CC3586122A14006E007D64EE /* ViewController.swift */,
@@ -128,6 +199,186 @@
 				CC3586342A14006F007D64EE /* UpstoxUITestsLaunchTests.swift */,
 			);
 			path = UpstoxUITests;
+			sourceTree = "<group>";
+		};
+		CC3586412A147C91007D64EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586802A180FB2007D64EE /* NetworkError.swift */,
+				CC3586AC2A180FB2007D64EE /* NetworkManager.swift */,
+				CC35867F2A180FB2007D64EE /* Parser.swift */,
+				CC35867D2A180FB2007D64EE /* RequestType.swift */,
+				CC35867E2A180FB2007D64EE /* Router.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CC3586422A147CD1007D64EE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				CC35866D2A180D8B007D64EE /* Splash */,
+				CC35866C2A180D85007D64EE /* Home */,
+				CC191E182A252DE800D30D41 /* Protocol.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		CC3586432A147CE7007D64EE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC35864C2A18035E007D64EE /* CollectionView.swift */,
+				CC35864D2A18035E007D64EE /* Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC3586502A180CDF007D64EE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586D82A18F500007D64EE /* StocksInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CC3586522A180CDF007D64EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586E02A18F555007D64EE /* MyCurrentHoldingViewController.swift */,
+				CC191E1A2A25535200D30D41 /* CollectionViewDataSource.swift */,
+				CC3586E52A19DA52007D64EE /* CurrentHoldingCell.swift */,
+				CC3586EF2A1B32DE007D64EE /* BottomSheetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC3586552A180CDF007D64EE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586D62A18F4C9007D64EE /* StockData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CC3586572A180CDF007D64EE /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586E72A19E166007D64EE /* CurrentHoldingCell.xib */,
+				CC3586ED2A1A1973007D64EE /* BottomSheetView.xib */,
+				CC3586E92A19E170007D64EE /* MyCurrentHoldingViewController.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		CC35865A2A180CDF007D64EE /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586DA2A18F516007D64EE /* StocksPresentor.swift */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		CC35865D2A180CDF007D64EE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586DC2A18F520007D64EE /* StocksRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CC35865F2A180CDF007D64EE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586DE2A18F52D007D64EE /* StocksService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC35866C2A180D85007D64EE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586552A180CDF007D64EE /* Entity */,
+				CC3586502A180CDF007D64EE /* Interactor */,
+				CC35865A2A180CDF007D64EE /* Presentor */,
+				CC35865D2A180CDF007D64EE /* Router */,
+				CC35865F2A180CDF007D64EE /* Service */,
+				CC3586522A180CDF007D64EE /* View */,
+				CC3586572A180CDF007D64EE /* Xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC35866D2A180D8B007D64EE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586702A180D9E007D64EE /* Interactor */,
+				CC3586762A180D9E007D64EE /* Presenter */,
+				CC3586722A180D9E007D64EE /* Router */,
+				CC35866E2A180D9E007D64EE /* View */,
+				CC3586742A180D9E007D64EE /* Xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CC35866E2A180D9E007D64EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC35866F2A180D9E007D64EE /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC3586702A180D9E007D64EE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586712A180D9E007D64EE /* SplashInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CC3586722A180D9E007D64EE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586732A180D9E007D64EE /* SplashRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CC3586742A180D9E007D64EE /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586752A180D9E007D64EE /* SplashViewController.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		CC3586762A180D9E007D64EE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586772A180D9E007D64EE /* SplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CC3586C72A18CD35007D64EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586C82A18CD35007D64EE /* Constant.swift */,
+				CC3586C92A18CD35007D64EE /* TLReachabilityHelper.swift */,
+				CC3586CA2A18CD35007D64EE /* Reachability.swift */,
+				CC3586CB2A18CD35007D64EE /* ReachabilityProtocol.swift */,
+				CC3586CC2A18CD35007D64EE /* UIImageExtension.swift */,
+				CC3586CD2A18CD35007D64EE /* LoadingIndicator.swift */,
+				CC3586CE2A18CD35007D64EE /* LoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CC3586E22A18F77D007D64EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC3586E32A18F77D007D64EE /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +485,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3586EE2A1A1973007D64EE /* BottomSheetView.xib in Resources */,
 				CC35861E2A14006F007D64EE /* LaunchScreen.storyboard in Resources */,
 				CC35861B2A14006E007D64EE /* Assets.xcassets in Resources */,
 				CC3586162A14006E007D64EE /* Main.storyboard in Resources */,
+				CC3586EA2A19E170007D64EE /* MyCurrentHoldingViewController.xib in Resources */,
+				CC3586E82A19E166007D64EE /* CurrentHoldingCell.xib in Resources */,
+				CC35867B2A180D9E007D64EE /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +517,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3586132A14006E007D64EE /* ViewController.swift in Sources */,
+				CC191E1B2A25535200D30D41 /* CollectionViewDataSource.swift in Sources */,
+				CC3586B02A180FB2007D64EE /* NetworkError.swift in Sources */,
+				CC3586DF2A18F52D007D64EE /* StocksService.swift in Sources */,
+				CC35867C2A180D9E007D64EE /* SplashPresenter.swift in Sources */,
+				CC3586D92A18F500007D64EE /* StocksInteractor.swift in Sources */,
+				CC3586D52A18CD35007D64EE /* LoadingView.swift in Sources */,
+				CC3586DD2A18F520007D64EE /* StocksRouter.swift in Sources */,
+				CC3586F02A1B32DE007D64EE /* BottomSheetView.swift in Sources */,
+				CC3586D42A18CD35007D64EE /* LoadingIndicator.swift in Sources */,
+				CC3586D32A18CD35007D64EE /* UIImageExtension.swift in Sources */,
+				CC3586CF2A18CD35007D64EE /* Constant.swift in Sources */,
+				CC35864F2A18035E007D64EE /* Date.swift in Sources */,
+				CC35864E2A18035E007D64EE /* CollectionView.swift in Sources */,
+				CC3586AF2A180FB2007D64EE /* Parser.swift in Sources */,
+				CC3586AE2A180FB2007D64EE /* Router.swift in Sources */,
+				CC3586D02A18CD35007D64EE /* TLReachabilityHelper.swift in Sources */,
 				CC35860F2A14006E007D64EE /* AppDelegate.swift in Sources */,
 				CC3586192A14006E007D64EE /* Upstox.xcdatamodeld in Sources */,
+				CC3586782A180D9E007D64EE /* SplashViewController.swift in Sources */,
+				CC3586C62A180FB2007D64EE /* NetworkManager.swift in Sources */,
+				CC3586D22A18CD35007D64EE /* ReachabilityProtocol.swift in Sources */,
+				CC3586E12A18F555007D64EE /* MyCurrentHoldingViewController.swift in Sources */,
 				CC3586112A14006E007D64EE /* SceneDelegate.swift in Sources */,
+				CC3586D12A18CD35007D64EE /* Reachability.swift in Sources */,
+				CC3586D72A18F4C9007D64EE /* StockData.swift in Sources */,
+				CC3586AD2A180FB2007D64EE /* RequestType.swift in Sources */,
+				CC35867A2A180D9E007D64EE /* SplashRouter.swift in Sources */,
+				CC191E192A252DE800D30D41 /* Protocol.swift in Sources */,
+				CC3586DB2A18F516007D64EE /* StocksPresentor.swift in Sources */,
+				CC3586E62A19DA52007D64EE /* CurrentHoldingCell.swift in Sources */,
+				CC3586792A180D9E007D64EE /* SplashInteractor.swift in Sources */,
+				CC3586E42A18F77D007D64EE /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
