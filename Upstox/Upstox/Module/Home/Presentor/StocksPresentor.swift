@@ -12,6 +12,7 @@ protocol StockPresentorProtocol : AnyObject {
     func getCellCount() -> Int
     func getSymbol(indexpath : IndexPath) -> String?
     func getStockInfo(indexPath : IndexPath) -> StockData?
+    func getQuantity(indexPath : IndexPath) -> String?
     func getBottomSheetInfo(indexpath : IndexPath)
     func fetchData()
 }
@@ -44,11 +45,15 @@ extension StockPresentor : StockPresentorProtocol {
     }
     
     func getCellCount() -> Int {
-        
+        self.interactor?.getStcokListCount() ?? 0
     }
     
     func getSymbol(indexpath : IndexPath) -> String? {
-        
+        self.interactor?.getStockInfo(indexpath: indexpath)?.symbol
+    }
+    
+    func getQuantity(indexPath : IndexPath) -> String? {
+        return "\(self.interactor?.getStockInfo(indexpath: indexPath)?.quantity ?? 0)"
     }
     
     func getStockInfo(indexPath : IndexPath) -> StockData? {
@@ -59,7 +64,4 @@ extension StockPresentor : StockPresentorProtocol {
         
     }
     
-    func getNumberOfSection() -> Int {
-        
-    }
 }

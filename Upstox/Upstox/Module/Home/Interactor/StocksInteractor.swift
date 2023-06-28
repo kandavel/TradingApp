@@ -12,7 +12,7 @@ protocol StockInteractorInputProtocol {
     var networkManager : NetworkManagerProtocol {get set}
     func makeAPICall()
     func getStcokListCount() -> Int
-    func get
+    func getStockInfo(indexpath : IndexPath) -> Datum?
 }
 
 protocol StockInteractorOutputProtocol {
@@ -23,7 +23,7 @@ class StockInteractor {
     
     var  outputProtocol : StockInteractorOutputProtocol
     var networkManager : NetworkManagerProtocol
-    private (set)var result : [StockData] = []
+    private (set)var result : [Datum] = []
     
     init(outputProtocol : StockInteractorOutputProtocol,networkManager : NetworkManagerProtocol) {
         self.outputProtocol = outputProtocol
@@ -31,6 +31,14 @@ class StockInteractor {
     }
 }
 extension StockInteractor : StockInteractorInputProtocol {
+    
+    func getStcokListCount() -> Int {
+        return self.result.count
+    }
+    
+    func getStockInfo(indexpath : IndexPath) -> Datum? {
+        return self.result[safe:  indexpath.row]
+    }
     
     func makeAPICall() {
         networkManager.request(StocksService.currentStockList, decodeToType: StockData.self) { [weak self](result) in
